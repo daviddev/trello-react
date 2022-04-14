@@ -1,0 +1,42 @@
+.popupRemoveTask{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.popupRemoveTask-container{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.popupRemoveTask-body{
+    width: 500px;
+    margin: 10% 33.333%;
+    background-color: #fff;
+    padding: 80px 10px 80px 10px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.popupRemoveTask-body p {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.popupRemoveTask-body button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin: 5px;
+    background-color: blue;
+}

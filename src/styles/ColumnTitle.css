@@ -1,0 +1,54 @@
+.taskTitle {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+
+.taskTitle h3 {
+    font-family: cursive;
+    word-break: break-all;
+}
+
+.taskTitle div {
+    flex-grow: 1;
+}
+
+.taskTitle button {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(7, 163, 7);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.taskTitle .buttonRemove {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-weight: 600;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.taskTitle .inputChangeTitle {
+    height: 46px;
+    width: 220px;
+    font-family: cursive;
+    font-size: 1.17em;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0px;
+}
+
+.taskTitle .buttonChange {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 0px;
+}
